@@ -1,0 +1,34 @@
+.moving-title{
+    position: absolute;
+    color:rgb(193, 221, 255);
+    z-index: -100;
+    width:100%;
+    height:auto;
+}
+@keyframes moveLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+  }
+
+.animation-title1{
+    animation: moveLeft 30s linear infinite;
+    animation-delay: -15s;
+}
+.animation-title2{
+    animation: moveLeft 30s linear infinite;
+    animation-delay: 0;
+    filter:grayscale(100%);
+}
+
+.moving-titles-container{
+    z-index: -100;
+    opacity: 1;
+    width:4000px;
+    height:auto;
+    transform: translate3d(-0px,200px,-20px);
+    position: absolute;
+}

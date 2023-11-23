@@ -1,0 +1,16 @@
+.phonesinline{
+    width: auto;
+    max-width: 100%;
+    background:rgba(211, 211, 234, 0);
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-top: 40px;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    transform: translateY(-10%);
+}
+
+
+
+

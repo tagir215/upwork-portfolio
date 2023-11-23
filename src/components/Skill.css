@@ -1,0 +1,130 @@
+.skill-container{
+    width:120px;
+    margin: 15px;
+    height:72px;
+    background: var(--darker-color);
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+}
+.folder-fold{
+    width: 50%;
+    border-radius: 4px;
+    height: 100%;
+    transform: translateY(-10%);
+    background: var(--darker-color);
+    position: absolute;
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+}
+.folder-cover{
+    border-radius: 4px; 
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    height: 85%;
+    box-sizing: border-box;
+    transform: translateY(18%);
+    background: var(--extra-color);
+    border:1px solid var(--extra-color);
+}
+
+
+.skill-container:hover .folder-cover{
+    transform: skewX(-20deg) translate(7px,18px);
+    height:75%;
+    transform-origin: bottom left;
+}
+.skill-container:hover .skill-info{
+    opacity: 1;
+    max-width: 1000%;
+    max-height: 1000%;
+    z-index: 500;
+    color:black;
+    transition:0.2s;
+    transform: translate(-10%,-70px) rotateZ(10deg);
+   
+}
+.skill-container:hover .skill-info-fold{
+    opacity: 1;
+}
+.skill-container:hover .skill-image{
+    opacity:1;
+}
+
+.skill-info{
+    pointer-events: none;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background: rgb(252, 243, 250);
+    z-index: 50;
+    position: absolute;
+    color:transparent;
+    left:50%;
+    transform: translate(-50%,0px);
+    max-width: 80%;
+    max-height: 70%;
+    transition: 0.2s;
+    overflow: hidden;
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+}
+.skill-info-fold{
+    background: rgb(236, 229, 229);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top:0;
+    opacity: 0;
+}
+
+.pos0{
+    bottom:10%;
+}
+.pos1{
+    top:120%;
+}
+.pos2{
+    top:50%;
+    transform: translateY(-50%);
+    left:120%;
+}
+.pos3{
+    top:50%;
+    transform: translateY(-50%);
+    left:-120%;
+}
+
+
+
+.skill-image-container{
+    height: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.skill-image{
+    width: auto;
+    height: auto;
+    position:relative;
+    max-height:100%;
+    max-width: 100%;
+    opacity: 0;
+}
+.skill-title{
+    font-size: 13px;
+    align-self: center;
+    color:var(--primary-color);
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.skill-line{
+    display:block;
+    white-space: nowrap;
+}
+.stars-img{
+    width: 100px;
+    margin-top: 5px;
+    height: auto;
+}

@@ -1,0 +1,131 @@
+{
+    "title":"Tagir",
+    "tab0":"Esittely",
+    "tab1":"Työt",
+    "tab2":"Yhteystiedot",
+    "videos-title":"HARRASTUKSET",
+    "videos-text":"Tein pelejä dreams pelienteko alustalla pari vuotta sitten (kun olisi ehkä pitänyt opiskella konetekniikkaa). Dreamsissä logiikan implementointi on aika samankaltainen prosessi kuin nykyaikaisilla koodaus kielillä tai pelienteko alustoilla.",
+
+    "aboutTitle":"Portfolio 2023",
+    "aboutText":"Olen opetellut aika yleisesti erilaisia teknologioita, mutta tutuimmat ovat tällä hetkellä Java, Android, React, Javascript ja Spring Boot",
+    "actualAboutText":"Olen saattanut käyttää ehkä liikaakin aikaa tämän portfolion projektien tekoon, kuin itse työnhakuun. Kuvittelen jatkuvasti projektien olevan vielä puutteellisia ja ne saattavat venyvä kuukausia kauemmin kuin oli tarkoitus. Olen käyttänyt aika paljon aikaa front-end kehitykseen, mutta backend kehitys sujuu kyllä paremmin. Olen alkanut myös lukemaan enemmän koodia, kuten esim. Hibernate kirjaston lähdekoodia, jotta koodista ei tulisi liian omalaatuista",
+    "actualAboutTitle":"Tagir Tirkkonen",
+    "works":"Työt",
+    "work-info":"Olen tehnyt 4 isompaa sovellusta tähän asti, joista ainakin kaksi aion pian julkaista app storeen.",
+
+    "skills1":"Kielet",
+    "skills2":"Sovelluskehykset",
+    "skills3":"Tietokannat",
+
+    "topicPlus":"Joitakin oppimiani asioita:",
+
+    "topic1Title":"Star Chat",
+    "topic1Text":"Chat sovellus jossa kaikki kirjoittaminen tapahtuu Star Wars alkuteksteistä inspiroituun tyyliin",
+    "topic1List":[
+        "MVVM",
+        "REST",
+        "Notifikaatiot",
+        "Content Resolver",
+        "OpenGL (tekstin renderöinti / tekstuurit / puskurit / huippujoukot / tekstin asettelu algoritmeja, fontti datan käsittely, matriisilasku algoritmeja, GLSL, varjostinten kompilointi)",
+        "MotionEvent",
+        "FireBase (realtime database / Firestore / Firebase messaging)",
+        "lupien hallinta",
+        "Best practices",
+        "Mockito",
+        "Espresso"
+    ],
+    
+
+    "topic2Title":"Visual metronome",
+    "topic2Text":"Äppi joka pyrkii tunnistamaan rytmejä musiikista",
+    "topic2List":[
+        "AudioRecord",
+        "AudioManager",
+        "Timer",
+        "Monisäikeistys",
+        "AudioTrack",
+        "OpenGL (GL SurfaceView, Renderer, viivan piirto)",
+        "Audio puskurit",
+        "Fast fourier transform, autokorrelaatio ja muita pitch detection algoritmeja"
+    ],
+
+
+    "topic3Title":"Your Mind Map",
+    "topic3Text":"Ajatuskarttojen teko ohjelma",
+    "topic3List":[
+        "java",
+        "OOP",
+        "Android Studio",
+        "Aktiviteetit", 
+        "Fragmentit",
+        "Canvas",
+        "Sisäinen ja ulkoinen tallennustila",
+        "CustomView",
+        "Karttojen sommittelu algoritmeja",
+        "Xml",
+        "Bitmap",
+        "RecyclerView",
+        "ListView",
+        "Adapterit",
+        "Animaatiot",
+        "ViewPager2",
+        "ConstraintLayout ConstraintSet",
+        "Touch eventit"
+    ],
+    
+
+    "topic4Title":"GPS Golf (eka koodaus projekti)",
+    "topic4Text":"AR Golf peli jota pelataan käyttämällä kännykän GPS navigointia",
+    "topic4List":[
+        "Visual Studio (Forms, Buttons)",
+        "C# (linq)",
+        "Data struktuureja (900 miljoonan koordinaatin yhdistys ja järjestely)",
+        "Unity (Mesh renderöinti laskien kolmioiden koordinaatteja 3d ympäristössä maapallon säteen mukaan)",
+        "Google Cloud, CLI isojen tiedostojen käsittelyyn",
+        "Async metodit",
+        "lupien hallinta",
+        "GPS metodit koordinaattien hallinta ja oikeiden karttatietojen saaminen Google Cloudista olinpaikan mukaan"
+    ],
+    
+    "topic5Title":"C S A M M A",
+    "topic5Text":"CSAMMA (cosine search automatic mindmap application) on Full stack sovellus joka luo ajatuskartan automaattisesti sille syötetystä sivustosta käyttäen web scraperia ja hakukenttään laitettuja sanoja. Esim. jos hakukenttään kirjoittaa sanan 'fish' niin sovellus luo web sivustosta ajatusartan web sivustoon liittvyvistä verkkotunnuksista jotka liittyvät sanaan 'fish'. ",
+    "topic5List":[
+        "Spring Boot (JpaRepository, Hibernate, NativeSql Batching, Entityt)",
+        "Sovellus arkkitehtuuri",
+        "MySql",
+        "SQL",
+        "Javascript",
+        "React (useEffect, useRef, useState, Canvas, map, props)",
+        "Jsoup",
+        "Kielimallit"
+    ],
+    
+    "topic6Title":"AfricanRockPython",
+    "topic6Text":"AfricanRockPython on tietokoneen osien verkkokauppa sovellus, joka pystyy käyttäjän valintojen perusteella luomaan valmiita kokoonpano ehdotuksia tietokoneen osista. Alunperin projektin tarkoituksena oli opetella suunnittelumalleja joista noin 12 on käytetty projektissa. Sovellus valitsee yhteensopivat komponentit käyttäen yhteensopivuus tietoja sekä käyttäjän antamia toiveita hintaluokasta sekä tietokoneen käyttötarkoituksesta. ",
+    "topic6List":[
+        "Spring Boot",
+        "Hibernate (ManyToMany, ManyToOne, oudot proxy ongelmat, oudot transaction session ongelmat..., InheritanceTypes, CascadeTypes, Batching)",
+        "Jdbc",
+        "Evästeet (sessiontoken)",
+        "Spring Security (vähän)",
+        "Suunnittelumallit (FactoryMethod, AbstractFactory, Builder, Facade, Proxy, Decorator, Strategy, Observer, Singleton, Composite, Prototype, State)",
+        "React (redux, pages, axios)",
+        "WebScraping (selenium)",
+        "Jackson",
+        "MySql"
+    ],
+
+    "privacyPolicy":"Privacy Policy",
+    "goodToKow":"Vastausaika todennäköisesti lyhyehkö",
+    "language":"Suomi",
+    "learn more":"github",
+    "contact":"Ota yhteyttä",
+    "email":"tagir.tirkkonen@gmail.com",
+    "phone":"+358401865843",
+    "location":"Silfverhjelmintie 8, Mustio",
+    "email-name":"SÄHKÖPOSTI",
+    "location-name":"SIJAINTI",
+    "phone-name":"PUHELIN",
+    "skills":"Taidot",
+    "link-explain":"saattaa käynnistyä hitaasti koska heroku"
+}

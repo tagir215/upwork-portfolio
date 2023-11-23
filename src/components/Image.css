@@ -1,0 +1,10 @@
+.image{
+    width: 5px;
+    height: auto;
+    z-index: 10;
+    position:absolute;
+    left: 50%;
+    z-index: -10;
+    transform-style: preserve-3d;
+    filter: grayscale(100%);
+}

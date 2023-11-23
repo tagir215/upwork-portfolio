@@ -1,0 +1,79 @@
+.toolbar-background{
+    height:70px;
+    z-index: 100;
+    top:0;
+    width: 100%;
+    position: fixed;
+    
+}
+.add-background{
+    background: var(--secondary-color);
+    z-index: 100;
+}
+.move-up{
+    transform: translateY(-100%);
+}
+.move-down{
+    transform: translateY(100%);
+}
+a:hover{
+    cursor:pointer;
+}
+.toolbar-bar{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    max-width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+    top:0;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    transition: 0.3s ease-out;
+}
+.toolbar-title{
+    font-size:25px;
+    font-weight: 600;
+    opacity: 0;
+}
+.toolbar-img{
+    margin-left:20px;
+    width:55px;
+    height:55px;
+    border-radius:30px;
+    background:rgb(195, 195, 195);
+}
+.toolbar-right{
+    display:flex;
+    align-items: center;
+    
+}
+.toolbar-tab{
+    color: var(--primary-color);
+    margin-top:auto;
+    margin-bottom:auto; 
+    background: var(--secondary-color);
+    border-radius: 40px;
+    margin-left:35px;
+    text-decoration: none;
+    font-size:14px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border:1px solid var(--primary-color);
+    font-weight: bold;
+    transition: 0.3s;
+}
+.toolbar-tab:hover{
+    background: var(--primary-color);
+    color:var(--secondary-color);
+}
+.place-holder{
+    height:40px;
+    position: relative;
+}
+.active-tab{
+    color:var(--primary-color);
+    border-bottom:1px solid var(--primary-color);
+}

@@ -1,0 +1,40 @@
+.fakecode-container{
+    position:absolute;
+    width: 55%;
+    transform: translateX(-50%);
+    top: 38px;
+    left: 53.5%;
+    background: rgb(33, 77, 166);
+    width: 130px;
+    height: 280px;
+}
+.fakecode-span{
+    margin-left: 5px;
+    width: 0%;
+    color:white;
+    display: block;
+    font-size: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.fake-code-centerer{
+    margin-top:50px;
+    width: 90%;
+}
+.add-type-animation{
+    animation: 
+    typing 0.5s steps(19) forwards;
+}
+
+@keyframes cursor {
+    50%{border-right: 5px solid white;}
+}
+@keyframes typing{
+    0%{
+        width:0;
+    }
+    100%{
+        width:80%;
+    }
+}
