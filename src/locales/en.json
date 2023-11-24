@@ -1,12 +1,14 @@
+
 {
     "topicPlus": "technology stack",
 
-    "topic1Title": "I can make applications that rely on realtime databases and unique interfaces",
+    "topic1Title": "I have made applications that rely on realtime databases and unique interfaces",
     "topic1Text": "A chat application where all text is written in a Star Wars-inspired style",
     "topic1List": [
         "MVVM",
         "REST",
         "Notifications",
+	"Java",
         "Content Resolver",
         "OpenGL",
         "MotionEvent",
@@ -16,22 +18,24 @@
         "Espresso"
     ],
 
-    "topic2Title": "I can make applications that rely on math and complex audio algorithms",
+    "topic2Title": "I'm proficient in various algorithms and audio programming",
     "topic2Text": "An app that aims to detect rhythms in music",
     "topic2List": [
         "AudioRecord",
         "AudioManager",
         "Timer",
+	"Java",
         "Multithreading",
         "AudioTrack",
         "OpenGL",
         "FFT"
     ],
 
-    "topic3Title": "I can quickly make feature rich applications since I have lot's of experience building tools",
+    "topic3Title": "I have experience in creating large, feature-rich applications and Android development",
     "topic3Text": "A program for creating mind maps",
     "topic3List": [
         "Android Studio",
+	"Java",
         "Canvas",
         "Internal and external storage",
         "CustomView",
@@ -43,7 +47,7 @@
         "Touch events"
     ],
 
-    "topic4Title": "I can also make Games and unique ideas",
+    "topic4Title": "I have also developed video games using Unity, Google Cloud and OSM data",
     "topic4Text": "An AR golf game played using mobile GPS navigation",
     "topic4List": [
         "Visual Studio",
@@ -54,25 +58,28 @@
         "GPS"
     ],
 
-    "topic5Title": "Complicated UIs and webscraping are no problem",
+    "topic5Title": "I can make complicated layouts and webscraping",
     "topic5Text": "CSAMMA (Cosine Search Automatic Mind Map Application) is a full-stack application that automatically creates a mind map from a given website using web scraping and search terms. For example, if you enter the word 'fish' in the search field, the application generates a mind map of website domains related to the word 'fish'.",
     "topic5List": [
         "Spring Boot",
         "MySQL",
         "SQL",
-        "Javascript",
+        "JavaScript",
+	"Java",
         "React",
         "Jsoup",
         "Language models"
     ],
 
-    "topic6Title": "Complex multi parameter scalable applications that follow design patterns",
-    "topic6Text": "AfricanRockPython is a full-stack webshop application for computer components. It can generate assembly recommendations for computer parts based on user choices. The project was originally intended to practice design patterns, and about 12 of them have been used in the project. The application selects compatible components using compatibility data and user preferences regarding price range and computer usage.",
+    "topic6Title": "I can make fullstack applications with Spring and React",
+    "topic6Text": "Application that can generate assembly recommendations for computer parts based on user choices. The project was originally intended to practice design patterns, and about 12 of them have been used in the project. The application selects compatible components using compatibility data and user preferences regarding price range and computer usage.",
     "topic6List": [
         "Spring Boot",
         "Hibernate",
         "JDBC",
         "Cookies",
+	"Java",
+	"JavaScript",
         "Spring Security",
         "Design patterns",
         "React",
@@ -93,5 +100,5 @@
     "location-name": "LOCATION",
     "phone-name": "PHONE",
     "skills": "Skills",
-    "link-explain":"may open slowly because of heroku"
+    "link-explain":"(may open slowly due to app sleeping on heroku)"
 }

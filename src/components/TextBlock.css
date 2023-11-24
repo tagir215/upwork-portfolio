@@ -1,6 +1,5 @@
 .topic-content{
     max-width:46%;
-    min-width: 300px;
 }
 .topic-title{
     font-size:53px;
@@ -95,5 +94,8 @@
     }
     .main-title-text{
         font-size:2vw;
+    }
+    .topic-title{
+	font-size:6vw;
     }
 }

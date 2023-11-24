@@ -20,7 +20,9 @@ function Page({lang}) {
                   <img className="app-image" src={iFolder+"/topic6/arp.png"} alt=''></img>
                   <img className="app-image app-pos1" src={iFolder+"/topic6/arp2.png"} alt=''></img>
               </div>
-              <TextBlock lang={lang} theme="topic" title={lang.topic6Title} text={lang.topic6Text} list={lang.topic6List} link={"https://github.com/tagir215/AfricanRockPythonServer"} link2={"https://github.com/tagir215/african-rock-python-client"} link3={"https://arp-client-c1df0d4c8a26.herokuapp.com"}/>
+              <TextBlock lang={lang} theme="topic" title={lang.topic6Title} text={lang.topic6Text} list={lang.topic6List} link={"https://github.com/tagir215/AfricanRockPythonServer"} link2={"https://github.com/tagir215/african-rock-python-client"} 
+	  //link3={"https://arp-client-c1df0d4c8a26.herokuapp.com"}
+	  />
             </div>
 
 

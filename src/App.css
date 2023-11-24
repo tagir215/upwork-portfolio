@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5{
 }
 html{
   overflow-x: hidden;
- 
 }
 .content{
     width:90%;
@@ -91,7 +90,17 @@ html{
     transform: translateY(0px);
     max-width: 90%;
     margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
   }
+  .app-pos1{
+    transform: translate(0,0);
+  }
+  .app-image{
+    width:100%;
+    margin-bottom:20px;
+  }
+  
 }
 
 
